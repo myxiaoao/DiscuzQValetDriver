@@ -2,7 +2,7 @@
 
 拷贝 `DiscuzQValetDriver.php` 文件到 `valet` 驱动文件夹 `~/.config/valet/Drivers` 。
 
-**备注：Mojave 10.13 及以下版本驱动文件夹为：`~/.valet/Drivers`！！！**
+**备注：macOS 10.13 及以下版本驱动文件夹为：`~/.valet/Drivers`！！！**
 
 ## License
 
