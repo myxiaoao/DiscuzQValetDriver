@@ -11,7 +11,7 @@ class DiscuzQValetDriver extends LaravelValetDriver
 
     public function serves($sitePath, $siteName, $uri)
     {
-        return true;
+        return file_exists($sitePath . '/public/index.php') && file_exists($sitePath . '/disco');
     }
 
     public function isStaticFile($sitePath, $siteName, $uri)
